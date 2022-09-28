@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="5" started="5" failures="5" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="66.894">
+    <testsuite name="HomePage" time="66.894">
+      <testcase name="Validate Home Page Layout #1" classname="HomePage" time="7.634">
+        <failure>
+          <expected>Shop for Tyres
+By Vehicle</expected>
+          <actual>Go to Home</actual>
+          org.junit.ComparisonFailure: Result expected:&lt;[Shop for Tyres
+By Vehicl]e&gt; but was:&lt;[Go to Hom]e&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_are_present(stepDefs.java:41)&#13;
+	at ✽.I validate the "Shop for Tyres
+By Vehicle" are present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="Validate Home Page Layout #2" classname="HomePage" time="9.217">
+        <failure>
+          <expected>Shop for Tyres
+By Tyre Size</expected>
+          <actual>Go to Home</actual>
+          org.junit.ComparisonFailure: Result expected:&lt;[Shop for Tyres
+By Tyre Siz]e&gt; but was:&lt;[Go to Hom]e&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_are_present(stepDefs.java:41)&#13;
+	at ✽.I validate the "Shop for Tyres
+By Tyre Size" are present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="Validate Home Page Layout #3" classname="HomePage" time="28.927">
+        <failure>
+          <expected>Shop for Tyres
+By Brand</expected>
+          <actual>Go to Home</actual>
+          org.junit.ComparisonFailure: Result expected:&lt;[Shop for Tyres
+By Brand]&gt; but was:&lt;[Go to Home]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_are_present(stepDefs.java:41)&#13;
+	at ✽.I validate the "Shop for Tyres
+By Brand" are present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="Validate Home Page Layout #4" classname="HomePage" time="9.529">
+        <failure>
+          <expected>FIND A STORE</expected>
+          <actual>Go to Home</actual>
+          org.junit.ComparisonFailure: Result expected:&lt;[FIND A STORE]&gt; but was:&lt;[Go to Home]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_are_present(stepDefs.java:41)&#13;
+	at ✽.I validate the "FIND A STORE" are present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+      <testcase name="Validate Home Page Layout #5" classname="HomePage" time="11.584">
+        <failure>
+          <expected>EN</expected>
+          <actual>Go to Home</actual>
+          org.junit.ComparisonFailure: Result expected:&lt;[EN]&gt; but was:&lt;[Go to Home]&gt;&#13;
+	at org.junit.Assert.assertEquals(Assert.java:117)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_are_present(stepDefs.java:41)&#13;
+	at ✽.I validate the "EN" are present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+
+        </failure>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

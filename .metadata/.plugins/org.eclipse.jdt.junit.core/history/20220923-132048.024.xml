@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="3.114">
+    <testsuite name="HomePage" time="3.114">
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #1" classname="HomePage" time="1.926">
+        <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "return", byte expected
+	Syntax error on token "}", delete this token
+&#13;
+	at pageObjects.HomePage.&lt;init&gt;(HomePage.java:98)&#13;
+	at stepDefinitions.stepDefs.user_launches_browser(stepDefs.java:32)&#13;
+	at ✽.User Launches Browser(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:5)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #2" classname="HomePage" time="1.187">
+        <error>java.lang.Error: Unresolved compilation problems: 
+	Syntax error on token "return", byte expected
+	Syntax error on token "}", delete this token
+&#13;
+	at pageObjects.HomePage.&lt;init&gt;(HomePage.java:98)&#13;
+	at stepDefinitions.stepDefs.user_launches_browser(stepDefs.java:32)&#13;
+	at ✽.User Launches Browser(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:5)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

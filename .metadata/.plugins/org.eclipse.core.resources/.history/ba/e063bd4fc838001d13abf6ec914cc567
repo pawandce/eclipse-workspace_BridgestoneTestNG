@@ -1,0 +1,17 @@
+
+#Sample Feature Definition Template
+
+Feature: HomePage
+
+  Scenario: Validate Home Page Layout
+    Given User Launches Browser
+    When User launches website "https://cwh-uat.bridgestone.com.sg/en"
+    Then I validate the outcomes1
+    And I validate the outcome2
+    And I validate the outcome3
+    And I validate the outcome4
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |

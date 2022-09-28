@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="5" started="5" failures="0" errors="5" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="36.037">
+    <testsuite name="HomePage" time="36.037">
+      <testcase name="Validate Home Page Layout #1" classname="HomePage" time="9.129">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the TopNavBars "Shop for Tyres
+By Vehicle" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the TopNavBars {string} is present")
+public void i_validate_the_top_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout #2" classname="HomePage" time="4.792">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the TopNavBars "Shop for Tyres
+By Tyre Size" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the TopNavBars {string} is present")
+public void i_validate_the_top_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout #3" classname="HomePage" time="4.972">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the TopNavBars "Shop for Tyres
+By Brand" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the TopNavBars {string} is present")
+public void i_validate_the_top_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout #4" classname="HomePage" time="7.352">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the TopNavBars "FIND A STORE" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the TopNavBars {string} is present")
+public void i_validate_the_top_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout #5" classname="HomePage" time="9.788">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the TopNavBars "EN" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the TopNavBars {string} is present")
+public void i_validate_the_top_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

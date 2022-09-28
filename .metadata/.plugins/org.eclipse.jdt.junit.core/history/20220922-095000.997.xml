@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="5" started="5" failures="0" errors="5" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="28.619">
+    <testsuite name="HomePage" time="28.619">
+      <testcase name="Validate Home Page Layout Top Navigation #1" classname="HomePage" time="5.47">
+        <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"header\"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"header\"]' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [41bb08a6cddff5039b652755262d35f6, findElements {using=xpath, value=//*[@id=\"header\"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PAWKUM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49188}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49188/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 41bb08a6cddff5039b652755262d35f6&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)&#13;
+	at pageObjects.HomePage.verifyElements(HomePage.java:31)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_top_nav_bars_is_present(stepDefs.java:42)&#13;
+	at ✽.I validate the TopNavBars "Shop for Tyres
+By Vehicle" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout Top Navigation #2" classname="HomePage" time="4.446">
+        <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"header\"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"header\"]' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4287b762f35237124c548be5d4173d81, findElements {using=xpath, value=//*[@id=\"header\"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PAWKUM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49257}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49257/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 4287b762f35237124c548be5d4173d81&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)&#13;
+	at pageObjects.HomePage.verifyElements(HomePage.java:31)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_top_nav_bars_is_present(stepDefs.java:42)&#13;
+	at ✽.I validate the TopNavBars "Shop for Tyres
+By Tyre Size" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout Top Navigation #3" classname="HomePage" time="4.698">
+        <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"header\"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"header\"]' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1b68a6490563c77b572631f513cbe1bd, findElements {using=xpath, value=//*[@id=\"header\"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PAWKUM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49325}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49325/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 1b68a6490563c77b572631f513cbe1bd&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)&#13;
+	at pageObjects.HomePage.verifyElements(HomePage.java:31)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_top_nav_bars_is_present(stepDefs.java:42)&#13;
+	at ✽.I validate the TopNavBars "Shop for Tyres
+By Brand" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout Top Navigation #4" classname="HomePage" time="5.556">
+        <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"header\"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"header\"]' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f79e0c24f61f72f4e16ce31132542d2, findElements {using=xpath, value=//*[@id=\"header\"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PAWKUM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49401}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49401/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f79e0c24f61f72f4e16ce31132542d2&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)&#13;
+	at pageObjects.HomePage.verifyElements(HomePage.java:31)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_top_nav_bars_is_present(stepDefs.java:42)&#13;
+	at ✽.I validate the TopNavBars "FIND A STORE" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout Top Navigation #5" classname="HomePage" time="8.447">
+        <error>org.openqa.selenium.InvalidSelectorException: invalid selector: Unable to locate an element with the xpath expression //*[@id=\"header\"] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id=\"header\"]' is not a valid XPath expression.
+  (Session info: chrome=105.0.5195.102)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7e5628c1c685e4e4681b807695cc4cdd, findElements {using=xpath, value=//*[@id=\"header\"]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 105.0.5195.102, chrome: {chromedriverVersion: 105.0.5195.52 (412c95e51883..., userDataDir: C:\Users\PAWKUM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:49756}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:49756/devtoo..., se:cdpVersion: 105.0.5195.102, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e5628c1c685e4e4681b807695cc4cdd&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)&#13;
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)&#13;
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)&#13;
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)&#13;
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)&#13;
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)&#13;
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:179)&#13;
+	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:102)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:380)&#13;
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:372)&#13;
+	at pageObjects.HomePage.verifyElements(HomePage.java:31)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_top_nav_bars_is_present(stepDefs.java:42)&#13;
+	at ✽.I validate the TopNavBars "EN" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

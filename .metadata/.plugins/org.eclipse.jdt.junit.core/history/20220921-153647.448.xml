@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="5" started="5" failures="0" errors="5" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="0.505">
+    <testsuite name="HomePage" time="0.505">
+      <testcase name="Validate Home Page Layout #1" classname="HomePage" time="0.286">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User Launches Browser' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User Launches Browser")
+public void user_launches_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User launches website {string}")
+public void user_launches_website(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the {string} are present")
+public void i_validate_the_are_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the {string}")
+public void i_validate_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Close the Browser")
+public void close_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout #2" classname="HomePage" time="0.059">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User Launches Browser' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User Launches Browser")
+public void user_launches_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User launches website {string}")
+public void user_launches_website(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the {string} are present")
+public void i_validate_the_are_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the {string}")
+public void i_validate_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Close the Browser")
+public void close_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout #3" classname="HomePage" time="0.057">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User Launches Browser' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User Launches Browser")
+public void user_launches_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User launches website {string}")
+public void user_launches_website(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the {string} are present")
+public void i_validate_the_are_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the {string}")
+public void i_validate_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Close the Browser")
+public void close_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout #4" classname="HomePage" time="0.052">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User Launches Browser' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User Launches Browser")
+public void user_launches_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User launches website {string}")
+public void user_launches_website(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the {string} are present")
+public void i_validate_the_are_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the {string}")
+public void i_validate_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Close the Browser")
+public void close_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="Validate Home Page Layout #5" classname="HomePage" time="0.037">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'User Launches Browser' and 4 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given("User Launches Browser")
+public void user_launches_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@When("User launches website {string}")
+public void user_launches_website(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the {string} are present")
+public void i_validate_the_are_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("I validate the {string}")
+public void i_validate_the(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then("Close the Browser")
+public void close_the_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

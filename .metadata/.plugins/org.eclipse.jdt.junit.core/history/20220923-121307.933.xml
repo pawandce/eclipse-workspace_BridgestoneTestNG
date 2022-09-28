@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="35.508">
+    <testsuite name="HomePage" time="35.508">
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #1" classname="HomePage" time="30.445">
+        <error>org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '10.203.86.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)&#13;
+	at org.openqa.selenium.By.className(By.java:100)&#13;
+	at pageObjects.HomePage.verifyElementsFooterNavigationSocialMedia(HomePage.java:77)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bar_is_present(stepDefs.java:90)&#13;
+	at ✽.I validate the FooterBar Social Media "https://www.facebook.com/bridgestonesg/" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:7)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #2" classname="HomePage" time="5.061">
+        <error>org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '10.203.86.88', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)&#13;
+	at org.openqa.selenium.By.className(By.java:100)&#13;
+	at pageObjects.HomePage.verifyElementsFooterNavigationSocialMedia(HomePage.java:77)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bar_is_present(stepDefs.java:90)&#13;
+	at ✽.I validate the FooterBar Social Media "https://www.instagram.com/bridgestone.sg/" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:7)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

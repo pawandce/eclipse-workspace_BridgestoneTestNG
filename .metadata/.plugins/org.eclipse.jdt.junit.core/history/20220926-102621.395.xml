@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="38" started="38" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="269.006">
+    <testsuite name="HomePage" time="269.006">
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #1" classname="HomePage" time="14.062"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #2" classname="HomePage" time="5.929"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #3" classname="HomePage" time="6.207"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #4" classname="HomePage" time="5.806"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #5" classname="HomePage" time="13.643"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #1" classname="HomePage" time="5.349"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #2" classname="HomePage" time="7.889"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #3" classname="HomePage" time="7.296"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #4" classname="HomePage" time="5.407"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #5" classname="HomePage" time="5.127"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #6" classname="HomePage" time="5.937"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #1" classname="HomePage" time="5.838"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #2" classname="HomePage" time="7.984"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #3" classname="HomePage" time="7.766"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #4" classname="HomePage" time="7.366"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #5" classname="HomePage" time="6.648"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #6" classname="HomePage" time="9.052"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #7" classname="HomePage" time="10.164"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #8" classname="HomePage" time="6.376"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #9" classname="HomePage" time="5.936"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #10" classname="HomePage" time="5.99"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #11" classname="HomePage" time="6.949"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #12" classname="HomePage" time="10.487"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #13" classname="HomePage" time="10.183"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #14" classname="HomePage" time="9.989"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #15" classname="HomePage" time="8.719"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #16" classname="HomePage" time="5.117"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #17" classname="HomePage" time="5.83"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #18" classname="HomePage" time="5.461"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #19" classname="HomePage" time="5.433"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #20" classname="HomePage" time="5.643"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #21" classname="HomePage" time="5.473"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #22" classname="HomePage" time="5.968"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #23" classname="HomePage" time="5.233"/>
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #1" classname="HomePage" time="5.358"/>
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #2" classname="HomePage" time="6.093"/>
+      <testcase name="TC5-Validate Home Page Footer ICON and Copyright Text #1" classname="HomePage" time="5.732"/>
+      <testcase name="TC5-Validate Home Page Footer ICON and Copyright Text #2" classname="HomePage" time="5.565"/>
+    </testsuite>
+  </testsuite>
+</testrun>

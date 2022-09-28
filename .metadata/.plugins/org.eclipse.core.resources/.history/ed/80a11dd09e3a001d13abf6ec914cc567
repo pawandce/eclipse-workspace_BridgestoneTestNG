@@ -1,0 +1,14 @@
+#Sample Feature Definition Template
+Feature: HomePage
+
+  
+  Scenario Outline: TC4-Validate Home Page Footer Social Media Navigation
+    Given User Launches Browser
+    When User launches website "https://cwh-uat.bridgestone.com.sg/en"
+    Then I validate the FooterBar Social Media "<Social Media Icon>" is present
+    Then Close the Browser
+
+    Examples: 
+      | Social Media Icon |
+      | Facebook          |
+      | Instagram         |

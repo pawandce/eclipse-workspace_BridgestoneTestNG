@@ -1,0 +1,87 @@
+#Sample Feature Definition Template
+Feature: HomePage
+
+  @Header @Chrome @Edge
+  Scenario Outline: TC1-Validate Home Page Layout Top Navigation
+    Given User Launches Browser
+    When User launches website "https://cwh-uat.bridgestone.com.sg/en"
+    Then I validate the TopNavBars "<TopNavBars>" is present
+    Then I validate the BridgeStone Logo"
+    Then Close the Browser
+
+    Examples: 
+      | TopNavBars                   |
+      | Shop for Tyres\nBy Vehicle   |
+      | Shop for Tyres\nBy Tyre Size |
+      | Shop for Tyres\nBy Brand     |
+      | FIND A STORE                 |
+      | EN                           |
+
+  Scenario Outline: TC2-Validate Home Page Layout Left Navigation
+    Given User Launches Browser
+    When User launches website "https://cwh-uat.bridgestone.com.sg/en"
+    Then I validate the LeftNavBars "<LeftNavBars>" is present
+    Then Close the Browser
+
+    Examples: 
+      | LeftNavBars     |
+      | WHY BRIDGESTONE |
+      | TYRE BRANDS     |
+      | TYRES CATALOGUE |
+      | TYRE CLINIC     |
+      | MEDIA CENTRE    |
+      | SUPPORT         |
+
+  Scenario Outline: TC3-Validate Home Page Footer Navigation
+    Given User Launches Browser
+    When User launches website "https://cwh-uat.bridgestone.com.sg/en"
+    Then I validate the FooterBars "<FooterBars>" is present
+    Then Close the Browser
+
+    Examples: 
+      | FooterBars                     |
+      | TYRES BY TYPE                  |
+      | Shop All Tyres                 |
+      | Performance Tyres              |
+      | Run-Flat Technology Tyres      |
+      | Touring Comfort & Quiet Tyres  |
+      | Fuel Efficient Tyres           |
+      | SUV Tyres                      |
+      | Motorcycle Tyres               |
+      | CONTACT US                     |
+      | Email Us                       |
+      | SUPPORT                        |
+      | Tyre Warranty Registration     |
+      | Tyre Warranty Policy           |
+      | Privacy Policy                 |
+      | Terms of Use                   |
+      | Sitemap                        |
+      | COMPANY INFORMATION            |
+      | About Bridgestone              |
+      | Careers                        |
+      | Corporate Mission & Values     |
+      | Worldwide Olympic Partnership  |
+      | Corporate Social Responsbility |
+      | News and Media Centre          |
+
+  Scenario Outline: TC4-Validate Home Page Footer Social Media Navigation
+    Given User Launches Browser
+    When User launches website "https://cwh-uat.bridgestone.com.sg/en"
+    Then I validate the FooterBar Social Media "<Social Media Icon>" is present
+    Then Close the Browser
+
+    Examples: 
+      | Social Media Icon                         |
+      | https://www.facebook.com/bridgestonesg/   |
+      | https://www.instagram.com/bridgestone.sg/ |
+
+  Scenario Outline: TC5-Validate Home Page Footer ICON and Copyright Text
+    Given User Launches Browser
+    When User launches website "https://cwh-uat.bridgestone.com.sg/en"
+    Then I validate the Page Footer ICON and Copyright Text "<Footer Elements>" is present
+    Then Close the Browser
+
+    Examples: 
+      | Footer Elements                                 |
+      | BRIDGESTONE                                     |
+      | © 2022 Bridgestone Tyre Sales Singapore Pte Ltd |

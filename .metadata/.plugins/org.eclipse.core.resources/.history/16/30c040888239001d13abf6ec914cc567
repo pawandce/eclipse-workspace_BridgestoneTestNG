@@ -1,0 +1,54 @@
+package pageObjects;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByXPath;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import objectRepository.HomePageLocators;
+
+public class HomePage {
+public WebDriver driver;
+
+
+public HomePage(WebDriver driver) {
+		this.driver = driver;
+	}
+		
+	HomePageLocators hpl = new HomePageLocators(); 
+	
+	public String verifyElementLogo(String string) {
+		return driver.findElement(hpl.BridgeStoneLogo).getAccessibleName();
+
+		}
+	
+	public String verifyElementShopByVehicle(String string) {
+				return driver.findElement(hpl.ShopforTyresByVehicle).getText();
+		
+		}
+	
+	public String verifyElementShopByBrand(String string) {
+		return driver.findElement(hpl.ShopforTyresByBrand).getAccessibleName();
+
+		}
+	
+	public String verifyElementShopBYSize(String string) {
+		return driver.findElement(hpl.ShopforTyresByTireSize).getAccessibleName();
+
+			}
+	
+	public String verifyElementFindAStore(String string) {
+		return driver.findElement(hpl.BridgeStoneLogo).getAccessibleName();
+
+			}
+	
+	public String verifyElementDefaultLanguage(String string) {
+		return driver.findElement(hpl.BridgeStoneLogo).getAccessibleName();
+			}
+}
+
+
+

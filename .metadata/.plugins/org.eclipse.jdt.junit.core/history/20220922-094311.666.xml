@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="26.265">
+    <testsuite name="HomePage" time="26.265">
+      <testcase name="Validate Home Page Layout Top Navigation #1" classname="HomePage" time="6.617"/>
+      <testcase name="Validate Home Page Layout Top Navigation #2" classname="HomePage" time="4.804"/>
+      <testcase name="Validate Home Page Layout Top Navigation #3" classname="HomePage" time="4.96"/>
+      <testcase name="Validate Home Page Layout Top Navigation #4" classname="HomePage" time="4.786"/>
+      <testcase name="Validate Home Page Layout Top Navigation #5" classname="HomePage" time="5.097"/>
+    </testsuite>
+  </testsuite>
+</testrun>

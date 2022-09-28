@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="8" started="8" failures="0" errors="6" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="53.826">
+    <testsuite name="HomePage" time="53.826">
+      <testcase name="TC3-Validate Home Page Footer Navigation #1" classname="HomePage" time="5.304">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:75)&#13;
+	at ✽.I validate the FooterBars "TYRES BY TYPE" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #2" classname="HomePage" time="4.499">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:75)&#13;
+	at ✽.I validate the FooterBars "Shop All Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #3" classname="HomePage" time="6.591"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #4" classname="HomePage" time="6.877">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:75)&#13;
+	at ✽.I validate the FooterBars "Run-Flat Technology Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #5" classname="HomePage" time="7.434">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:75)&#13;
+	at ✽.I validate the FooterBars "Touring Comfort &amp; Quiet Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #6" classname="HomePage" time="8.178"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #7" classname="HomePage" time="7.165">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:75)&#13;
+	at ✽.I validate the FooterBars "SUV Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #8" classname="HomePage" time="7.772">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:75)&#13;
+	at ✽.I validate the FooterBars "Motorcycle Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

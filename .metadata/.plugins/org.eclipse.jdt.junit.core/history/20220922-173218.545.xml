@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="8" started="8" failures="0" errors="8" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="178.875">
+    <testsuite name="HomePage" time="178.875">
+      <testcase name="TC3-Validate Home Page Footer Navigation #1" classname="HomePage" time="124.395">
+        <error>org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)&#13;
+	at org.openqa.selenium.By.className(By.java:100)&#13;
+	at pageObjects.HomePage.verifyElementsFooterNavigation1(HomePage.java:57)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:73)&#13;
+	at ✽.I validate the FooterBars "TYRES BY TYPE" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #2" classname="HomePage" time="4.844">
+        <error>org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)&#13;
+	at org.openqa.selenium.By.className(By.java:100)&#13;
+	at pageObjects.HomePage.verifyElementsFooterNavigation1(HomePage.java:57)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:73)&#13;
+	at ✽.I validate the FooterBars "Shop All Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #3" classname="HomePage" time="5.305">
+        <error>org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)&#13;
+	at org.openqa.selenium.By.className(By.java:100)&#13;
+	at pageObjects.HomePage.verifyElementsFooterNavigation1(HomePage.java:57)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:73)&#13;
+	at ✽.I validate the FooterBars "Performance Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #4" classname="HomePage" time="9.913">
+        <error>org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)&#13;
+	at org.openqa.selenium.By.className(By.java:100)&#13;
+	at pageObjects.HomePage.verifyElementsFooterNavigation1(HomePage.java:57)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:73)&#13;
+	at ✽.I validate the FooterBars "Run-Flat Technology Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #5" classname="HomePage" time="8.335">
+        <error>org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)&#13;
+	at org.openqa.selenium.By.className(By.java:100)&#13;
+	at pageObjects.HomePage.verifyElementsFooterNavigation1(HomePage.java:57)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:73)&#13;
+	at ✽.I validate the FooterBars "Touring Comfort &amp; Quiet Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #6" classname="HomePage" time="9.641">
+        <error>org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)&#13;
+	at org.openqa.selenium.By.className(By.java:100)&#13;
+	at pageObjects.HomePage.verifyElementsFooterNavigation1(HomePage.java:57)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:73)&#13;
+	at ✽.I validate the FooterBars "Fuel Efficient Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #7" classname="HomePage" time="7.881">
+        <error>org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)&#13;
+	at org.openqa.selenium.By.className(By.java:100)&#13;
+	at pageObjects.HomePage.verifyElementsFooterNavigation1(HomePage.java:57)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:73)&#13;
+	at ✽.I validate the FooterBars "SUV Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #8" classname="HomePage" time="8.558">
+        <error>org.openqa.selenium.InvalidSelectorException: Compound class names not permitted
+For documentation on this error, please visit: https://selenium.dev/exceptions/#invalid_selector_exception
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'WKWIN8429970', ip: '192.168.0.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.1'
+Driver info: driver.version: unknown&#13;
+	at org.openqa.selenium.By$ByClassName.&lt;init&gt;(By.java:310)&#13;
+	at org.openqa.selenium.By.className(By.java:100)&#13;
+	at pageObjects.HomePage.verifyElementsFooterNavigation1(HomePage.java:57)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:73)&#13;
+	at ✽.I validate the FooterBars "Motorcycle Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

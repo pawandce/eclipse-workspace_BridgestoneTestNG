@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="15.835">
+    <testsuite name="HomePage" time="15.835">
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #1" classname="HomePage" time="8.44">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bar_is_present(stepDefs.java:89)&#13;
+	at ✽.I validate the FooterBar Social Media "Facebook" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:8)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #2" classname="HomePage" time="7.393">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bar_is_present(stepDefs.java:89)&#13;
+	at ✽.I validate the FooterBar Social Media "Instagram" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:8)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

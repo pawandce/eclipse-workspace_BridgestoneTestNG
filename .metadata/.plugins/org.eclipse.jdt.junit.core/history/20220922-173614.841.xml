@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="8" started="6" failures="5" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunner" incomplete="true">
+    <testsuite name="HomePage" incomplete="true">
+      <testcase name="TC3-Validate Home Page Footer Navigation #1" classname="HomePage" time="6.775">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:53)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:77)&#13;
+	at ✽.I validate the FooterBars "TYRES BY TYPE" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #2" classname="HomePage" time="7.63">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:53)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:77)&#13;
+	at ✽.I validate the FooterBars "Shop All Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #3" classname="HomePage" time="10.39">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:53)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:77)&#13;
+	at ✽.I validate the FooterBars "Performance Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #4" classname="HomePage" time="11.064">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:53)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:77)&#13;
+	at ✽.I validate the FooterBars "Run-Flat Technology Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #5" classname="HomePage" time="9.77">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:53)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:77)&#13;
+	at ✽.I validate the FooterBars "Touring Comfort &amp; Quiet Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #6" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #7" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #8" classname="HomePage" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

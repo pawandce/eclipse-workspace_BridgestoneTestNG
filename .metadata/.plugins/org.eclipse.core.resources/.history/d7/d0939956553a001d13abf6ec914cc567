@@ -1,0 +1,17 @@
+package objectRepository;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+
+public class HomePageLocators {
+	public By ShopforTyresByVehicle = By.xpath("//*[@id=\"header\"]/nav/div/div[1]/div[1]/div[1]/a[1]/div[2]");
+	public By BridgeStoneLogo = By.xpath("//*[@id=\"navigation\"]/div[2]/div[1]/a");
+	public By ShopforTyresByTireSize = By.xpath("//*[@id=\"header\"]/nav/div/div[1]/div[1]/div[1]/a[2]");
+	public By ShopforTyresByBrand = By.xpath("//*[@id=\"header\"]/nav/div/div[1]/div[1]/div[1]/a[3]");
+	public By FindAStore = By.xpath("//*[@id=\"header\"]/nav/div/div[1]/div[2]/ul/li[1]");
+	public By DefaultSiteLanguage = By.xpath("//*[@id=\"header\"]/nav/div/div[1]/div[2]/ul/li[2]/button");
+	public By TopNavBars = By.xpath("//*[@id=\"header\"]");
+
+	
+}

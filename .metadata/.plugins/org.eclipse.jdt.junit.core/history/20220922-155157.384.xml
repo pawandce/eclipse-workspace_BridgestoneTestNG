@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="8" started="8" failures="0" errors="3" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="53.847">
+    <testsuite name="HomePage" time="53.847">
+      <testcase name="TC3-Validate Home Page Footer Navigation #1" classname="HomePage" time="6.561">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:75)&#13;
+	at ✽.I validate the FooterBars "TYRES BY TYPE" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #2" classname="HomePage" time="5.574"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #3" classname="HomePage" time="4.527">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:75)&#13;
+	at ✽.I validate the FooterBars "Performance Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #4" classname="HomePage" time="7.183">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:75)&#13;
+	at ✽.I validate the FooterBars "Run-Flat Technology Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC3-Validate Home Page Footer Navigation #5" classname="HomePage" time="7.42"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #6" classname="HomePage" time="7.403"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #7" classname="HomePage" time="7.427"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #8" classname="HomePage" time="7.75"/>
+    </testsuite>
+  </testsuite>
+</testrun>

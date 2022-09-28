@@ -1,0 +1,18 @@
+#Define root logger options
+log4j.rootLogger=INFO, console, R, HTML
+
+#Define console appender
+log4j.appender.console=org.apache.log4j.ConsoleAppender
+logrj.appender.R=org.apache.log4j.RollingFileAppender
+log4j.appender.HTML=org.apache.log4j.FileAppender
+log4j.appender.console.layout.ConversionPattern=%-5p %c{1} - %m%n
+
+#Define rolling file appender
+log4j.appender.R.file=./log/testLogs.log
+log4j.appender.HTML.File=./log/application.log
+
+log4j.appender.file.MaxFileSize=10MB
+
+log4j.appender.R.layout=org.apache.log4j.PatternLayout
+log4j.appender.R.layout.ConversionPattern=%d %d{Z} [%t] %-5p (%F:%L) - %m%n
+

@@ -1,0 +1,22 @@
+package stepDefinitions;
+
+import io.cucumber.java.en.*;
+
+public class stepDefs {
+	@Given("User Launches Browser")
+	public void user_launches_browser() {
+	    
+	}
+
+	@When("User launches website")
+	public void user_launches_website() {
+	   
+	}
+
+	@Then("I validate the outcomes1")
+	public void i_validate_the_outcomes1() {
+	  
+	}
+
+
+}

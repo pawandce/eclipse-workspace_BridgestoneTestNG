@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Features&apos; to &apos;commonMethods&apos;&#x0D;&#x0A;- Original project: &apos;eclipse-workspace_BridgestoneTestNG&apos;&#x0D;&#x0A;- Original element: &apos;eclipse-workspace_BridgestoneTestNG/src/test/java/Features&apos;&#x0D;&#x0A;- Renamed element: &apos;eclipse-workspace_BridgestoneTestNG/src/test/java/commonMethods&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Features&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src\/test\/java=/optional=/true=/=/maven.pomderived=/true=/=/test=/true=/&lt;Features" name="commonMethods" qualified="false" references="true" stamp="1664179824975" textual="false" version="1.0"/>
+</session>

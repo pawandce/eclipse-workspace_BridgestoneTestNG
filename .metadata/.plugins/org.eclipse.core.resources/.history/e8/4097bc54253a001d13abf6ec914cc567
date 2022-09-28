@@ -1,0 +1,75 @@
+package pageObjects;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByXPath;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import objectRepository.HomePageLocators;
+
+public class HomePage {
+public WebDriver driver;
+
+
+public HomePage(WebDriver driver) {
+		this.driver = driver;
+	}
+		
+	HomePageLocators hpl = new HomePageLocators(); 
+	
+	
+	public String verifyElements(String TopNavBars) {
+		WebElement tab;
+		List<WebElement> TopNavElements = driver.findElements(By.xpath("//*[@id=\\\"header\\\"]/nav/div/div[1]/div[1]/div[1]"));
+		for (int i=0; i<TopNavElements.size(); i++)
+		{
+			tab = TopNavElements.get(i);
+			String actualText= tab.getText();
+			System.out.println("Inside Loop: "+actualText);
+			
+		}
+		return actualText;
+		
+	}
+			
+	public String verifyElementLogo(String string) {
+		return driver.findElement(hpl.BridgeStoneLogo).getAccessibleName();
+
+		}
+	
+	public String verifyElementShopByVehicle(String string) {
+				return driver.findElement(hpl.ShopforTyresByVehicle).getText();
+		
+		}
+	
+	public String verifyElementShopByBrand(String string) {
+		return driver.findElement(hpl.ShopforTyresByBrand).getText();
+
+		}
+	
+	public String verifyElementShopBYSize(String string) {
+		return driver.findElement(hpl.ShopforTyresByTireSize).getText();
+
+			}
+	
+	public String verifyElementFindAStore(String string) {
+		return driver.findElement(hpl.FindAStore).getText();
+
+			}
+	
+	public String verifyElementDefaultLanguage(String string) {
+		return driver.findElement(hpl.DefaultSiteLanguage).getText();
+			}
+
+	
+}
+
+
+

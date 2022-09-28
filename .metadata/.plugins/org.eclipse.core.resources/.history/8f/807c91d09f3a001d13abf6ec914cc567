@@ -1,0 +1,100 @@
+package pageObjects;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByXPath;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+import objectRepository.HomePageLocators;
+
+public class HomePage {
+public WebDriver driver;
+
+
+public HomePage(WebDriver driver) {
+		this.driver = driver;
+	}
+		
+	HomePageLocators hpl = new HomePageLocators(); 
+	
+	
+	public String verifyElements(String string) {
+		WebElement tab;
+		String actualText = null;
+		List<WebElement> TopNavElements = driver.findElements(By.xpath("//*[@id=\"header\"]"));
+		for (int i=0; i<TopNavElements.size(); i++)
+		{
+			tab = TopNavElements.get(i);
+			actualText= tab.getText();			
+		}
+		return actualText;
+		
+	}
+	
+	public String verifyElementsLeftNavigation(String string) {
+		WebElement tab;
+		String actualText = null;
+		List<WebElement> LeftNavElements = driver.findElements(By.xpath("//*[@id='navigation']/div[6]"));
+		for (int i=0; i<LeftNavElements.size(); i++)
+		{
+			tab = LeftNavElements.get(i);
+			actualText= tab.getText();			
+		}
+		return actualText;
+		
+	}
+	
+	public String verifyElementsFooterNavigation(String string) {
+		WebElement tab;
+		String actualText = null;
+		List<WebElement> FooterNavElements = driver.findElements(By.xpath("/html/body/div[3]/div[3]/div/footer/section[2]/div"));
+		for (int i=0; i<FooterNavElements.size(); i++)
+		{
+			tab = FooterNavElements.get(i);
+			actualText= tab.getText();			
+		}
+		//System.out.println(actualText);
+		return actualText;
+		
+		
+	}
+	
+	//verifyElementsFooterNavigationSocialMedia
+	public String verifyElementsFooterNavigationSocialMedia(String string) {
+		WebElement tab;
+		String actualText = null;
+		List<WebElement> FooterNavElements = driver.findElements(By.xpath("/html/body/div[3]/div[3]/div/footer/section[3]/nav"));
+		for (int i=0; i<FooterNavElements.size(); i++)
+		{
+			
+			tab = FooterNavElements.get(i);
+			JavascriptExecutor js = (JavascriptExecutor) driver;
+			js.executeScript("arguments[0].scrollIntoView();", tab);
+			actualText= tab.getAttribute("href");
+			
+		}
+		System.out.println(actualText);
+		return actualText;
+		
+		
+	}
+	
+	public String verifyElementLogo() {
+		return driver.findElement(hpl.BridgeStoneLogo).getAccessibleName();
+
+		}
+
+	
+}
+
+
+

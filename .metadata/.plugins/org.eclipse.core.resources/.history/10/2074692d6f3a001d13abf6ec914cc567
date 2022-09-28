@@ -1,0 +1,22 @@
+#Sample Feature Definition Template
+Feature: HomePage
+
+  
+
+  Scenario Outline: TC3-Validate Home Page Footer Navigation
+    Given User Launches Browser
+    When User launches website "https://cwh-uat.bridgestone.com.sg/en"
+    Then I validate the FooterBars "<FooterBars>" is present
+    Then Close the Browser
+
+    Examples: 
+      | FooterBars                     |
+      | TYRES BY TYPE                  |
+      | Shop All Tyres                 |
+      | Performance Tyres              |
+      | Run-Flat Technology Tyres      |
+      | Touring Comfort & Quiet Tyres  |
+      | Fuel Efficient Tyres           |
+      | SUV Tyres                      |
+      | Motorcycle Tyres               |
+      

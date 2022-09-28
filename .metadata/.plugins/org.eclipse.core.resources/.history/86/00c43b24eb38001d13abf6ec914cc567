@@ -1,0 +1,45 @@
+package stepDefinitions;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByXPath;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.java.en.*;
+import pageObjects.HomePage;
+
+public class stepDefs {
+	public WebDriver driver;
+	public HomePage homepage;
+	@Given("User Launches Browser")
+	public void user_launches_browser() {
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
+		driver = new ChromeDriver();		
+		homepage= new HomePage(driver);
+		
+	    
+	}
+
+	@When("User launches website {string}")
+	public void user_launches_website(String url) {
+		driver.get(url);
+	   
+	}
+
+			
+	@Then("I validate the {string} are present")
+	public void i_validate_the_are_present(String string) {
+		driver.findElement(By.xpath("ShopforTyresByVehicle")); 
+		} 
+	
+	@Then("Close the Browser")
+	public void close_the_browser() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	    
+	}
+	
+}
+
+
+

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="36" started="0" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunner.TestRunner" incomplete="true">
+    <error>io.cucumber.java.InvalidMethodSignatureException: A method annotated with Before, After, BeforeStep or AfterStep must have one of these signatures:
+ * public void before_or_after(io.cucumber.java.Scenario scenario)
+ * public void before_or_after()
+at stepDefinitions.stepDefs.i_validate_the_footer_bar_is_present(java.lang.String)
+
+&#13;
+	at io.cucumber.java.InvalidMethodSignatureException$InvalidMethodSignatureExceptionBuilder.build(InvalidMethodSignatureException.java:52)&#13;
+	at io.cucumber.java.JavaHookDefinition.createInvalidSignatureException(JavaHookDefinition.java:52)&#13;
+	at io.cucumber.java.JavaHookDefinition.requireValidMethod(JavaHookDefinition.java:33)&#13;
+	at io.cucumber.java.JavaHookDefinition.&lt;init&gt;(JavaHookDefinition.java:19)&#13;
+	at io.cucumber.java.GlueAdaptor.addDefinition(GlueAdaptor.java:27)&#13;
+	at io.cucumber.java.JavaBackend.lambda$loadGlue$1(JavaBackend.java:43)&#13;
+	at io.cucumber.java.MethodScanner.scan(MethodScanner.java:67)&#13;
+	at io.cucumber.java.MethodScanner.scan(MethodScanner.java:58)&#13;
+	at io.cucumber.java.MethodScanner.scan(MethodScanner.java:33)&#13;
+	at io.cucumber.java.JavaBackend.lambda$loadGlue$2(JavaBackend.java:41)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.accept(ForEachOps.java:183)&#13;
+	at java.base/java.util.stream.DistinctOps$1$2.accept(DistinctOps.java:174)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)&#13;
+	at java.base/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658)&#13;
+	at java.base/java.util.stream.ReferencePipeline$7$1.accept(ReferencePipeline.java:274)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)&#13;
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)&#13;
+	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:177)&#13;
+	at java.base/java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1625)&#13;
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:484)&#13;
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp.evaluateSequential(ForEachOps.java:150)&#13;
+	at java.base/java.util.stream.ForEachOps$ForEachOp$OfRef.evaluateSequential(ForEachOps.java:173)&#13;
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)&#13;
+	at java.base/java.util.stream.ReferencePipeline.forEach(ReferencePipeline.java:497)&#13;
+	at io.cucumber.java.JavaBackend.loadGlue(JavaBackend.java:41)&#13;
+	at io.cucumber.core.runner.Runner.&lt;init&gt;(Runner.java:56)&#13;
+	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.createRunner(ThreadLocalRunnerSupplier.java:47)&#13;
+	at java.base/java.lang.ThreadLocal$SuppliedThreadLocal.initialValue(ThreadLocal.java:305)&#13;
+	at java.base/java.lang.ThreadLocal.setInitialValue(ThreadLocal.java:195)&#13;
+	at java.base/java.lang.ThreadLocal.get(ThreadLocal.java:172)&#13;
+	at io.cucumber.core.runtime.ThreadLocalRunnerSupplier.get(ThreadLocalRunnerSupplier.java:40)&#13;
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:35)&#13;
+	at io.cucumber.core.runtime.CucumberExecutionContext.getRunner(CucumberExecutionContext.java:133)&#13;
+	at io.cucumber.core.runtime.CucumberExecutionContext.runAfterAllHooks(CucumberExecutionContext.java:91)&#13;
+	at io.cucumber.junit.Cucumber$RunAfterAllHooks.evaluate(Cucumber.java:283)&#13;
+	at io.cucumber.junit.Cucumber$StartTestRun.evaluate(Cucumber.java:233)&#13;
+	at io.cucumber.junit.Cucumber$FinishTestRun.evaluate(Cucumber.java:248)&#13;
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)&#13;
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)&#13;
+	at org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)&#13;
+	at org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)&#13;
+	at org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)&#13;
+&#13;
+</error>
+    <testsuite name="HomePage" incomplete="true">
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #1" classname="HomePage" incomplete="true"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #2" classname="HomePage" incomplete="true"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #3" classname="HomePage" incomplete="true"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #4" classname="HomePage" incomplete="true"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #5" classname="HomePage" incomplete="true"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #1" classname="HomePage" incomplete="true"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #2" classname="HomePage" incomplete="true"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #3" classname="HomePage" incomplete="true"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #4" classname="HomePage" incomplete="true"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #5" classname="HomePage" incomplete="true"/>
+      <testcase name="TC2-Validate Home Page Layout Left Navigation #6" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #1" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #2" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #3" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #4" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #5" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #6" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #7" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #8" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #9" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #10" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #11" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #12" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #13" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #14" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #15" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #16" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #17" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #18" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #19" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #20" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #21" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #22" classname="HomePage" incomplete="true"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #23" classname="HomePage" incomplete="true"/>
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #1" classname="HomePage" incomplete="true"/>
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #2" classname="HomePage" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

@@ -1,0 +1,19 @@
+package objectRepository;
+import java.util.ArrayList;
+import java.util.List;
+
+import org.openqa.selenium.By;
+
+public class HomePageLocatorsSG {
+	public By BridgeStoneLogo = By.xpath("//*[@id=\"navigation\"]/div[2]/div[1]/a");
+	public By TopNavBars = By.xpath("//*[@id=\"header\"]");
+	public By LeftNavBars= By.xpath("//*[@id='navigation']/div[6]");
+	public By FooterLinks = By.xpath("/html/body/div[3]/div[3]/div/footer/section[2]/div");
+	public By HomePageHeader = By.xpath("//*[@id=\"header\"]");
+	public By FooterLinks_FB = By.xpath("/html/body/div[3]/div[3]/div/footer/section[3]/nav/a[1]");
+	public By FooterLinks_INSTA = By.xpath("/html/body/div[3]/div[3]/div/footer/section[3]/nav/a[2]");
+	public By FooterLogo = By.xpath("/html/body/div[3]/div[3]/div/footer/section[4]/div[1]/div");
+	public By CopyR = By.xpath("/html/body/div[3]/div[3]/div/footer/section[4]/div[2]/p");
+	
+}
+

@@ -1,0 +1,13 @@
+
+#Sample Feature Definition Template
+
+Feature: HomePage
+
+  Scenario: Validate Home Page Layout
+    Given User Launches Browser
+    When User launches website "https://cwh-uat.bridgestone.com.sg/en"
+    Then I validate the "<navBars>" are present
+  	Examples: 
+      | navBars   									|
+      | Shop for Tyres By Vehicle		|
+      

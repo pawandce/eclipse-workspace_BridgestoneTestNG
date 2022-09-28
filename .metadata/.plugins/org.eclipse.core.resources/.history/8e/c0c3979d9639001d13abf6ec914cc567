@@ -1,0 +1,23 @@
+package stepDefinitions;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByXPath;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.en.*;
+import pageObjects.HomePage;
+
+public class stepDefs {
+	String actualText;
+	String expectedText;
+	public WebDriver driver;
+	public HomePage homepage;
+	
+	
+}

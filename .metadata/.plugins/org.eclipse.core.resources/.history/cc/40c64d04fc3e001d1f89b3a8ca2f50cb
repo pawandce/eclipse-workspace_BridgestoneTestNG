@@ -1,0 +1,4 @@
+#browser=Chrome,Firefox,msedge
+ChromePath=./Drivers\\chromedriver.exe
+EdgePath=./Drivers\\msedgedriver.exe
+FirefoxPath=./Drivers\\geckodriver.exe

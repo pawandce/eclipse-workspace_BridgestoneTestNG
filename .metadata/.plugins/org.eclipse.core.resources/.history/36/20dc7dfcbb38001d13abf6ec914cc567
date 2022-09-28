@@ -1,0 +1,18 @@
+
+#Sample Feature Definition Template
+@tag
+Feature: HomePage
+
+  @tag1
+  Scenario: Validate Home Page Layout
+    Given User Launch Browser
+    When User launches website
+    Then I validate the outcomes1
+    And I validate the outcome2
+    And I validate the outcome3
+    And I validate the outcome4
+
+    Examples: 
+      | name  | value | status  |
+      | name1 |     5 | success |
+      | name2 |     7 | Fail    |

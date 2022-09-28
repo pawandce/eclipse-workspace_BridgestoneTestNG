@@ -1,0 +1,19 @@
+
+#Sample Feature Definition Template
+
+Feature: HomePage
+
+  Scenario Outline: Validate Home Page Layout
+    Given User Launches Browser
+    When User launches website "https://cwh-uat.bridgestone.com.sg/en"
+    Then I validate the "<TopNavBars>" are present
+    Then I validate the "<BridgeStone Logo>"
+    Then Close the Browser
+  	Examples: 
+      |TopNavBars   								|BridgeStone Logo|
+      |Shop for Tyres\nBy Vehicle		|Go to Home     |
+      |Shop for Tyres\nBy Tyre Size	|
+      |Shop for Tyres\nBy Brand		  |
+      |Shop for Tyres\nBy Vehicle		|
+      |Shop for Tyres\nBy Vehicle		|
+      |Shop for Tyres\nBy Vehicle		|

@@ -1,0 +1,29 @@
+package pageObjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.CacheLookup;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class HomePage {
+public WebDriver wDriver;
+
+public HomePage(WebDriver cDriver)
+	{	wDriver = cDriver;
+		PageFactory.initElements(cDriver, this);
+		}
+
+	@FindBy(xpath="//*[@id='header']/nav/div/div[1]/div[1]/div[1]/a[1]")
+	@CacheLookup
+	WebElement ShopforTyresByVehicle;
+	
+	public void verifyElement() {
+		
+		
+	}
+	
+}
+
+
+

@@ -1,0 +1,25 @@
+package stepDefinitions;
+
+import io.cucumber.java.en.*;
+
+public class stepDefs {
+	@Given("User Launches Browser")
+	public void user_launches_browser() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@When("User launches website")
+	public void user_launches_website() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+	@Then("I validate the outcomes1")
+	public void i_validate_the_outcomes1() {
+	    // Write code here that turns the phrase above into concrete actions
+	    throw new io.cucumber.java.PendingException();
+	}
+
+
+}

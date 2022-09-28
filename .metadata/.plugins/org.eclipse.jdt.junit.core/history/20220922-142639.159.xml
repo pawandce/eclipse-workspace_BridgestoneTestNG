@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="11" started="11" failures="0" errors="6" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="0.15">
+    <testsuite name="HomePage" time="0.15">
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #1" classname="HomePage" time="0.061"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #2" classname="HomePage" time="0.007"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #3" classname="HomePage" time="0.005"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #4" classname="HomePage" time="0.007"/>
+      <testcase name="TC1-Validate Home Page Layout Top Navigation #5" classname="HomePage" time="0.005"/>
+      <testcase name="TC-Validate Home Page Layout Left Navigation #1" classname="HomePage" time="0.042">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the LeftNavBars "WHY BRIDGESTONE" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the LeftNavBars {string} is present")
+public void i_validate_the_left_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC-Validate Home Page Layout Left Navigation #2" classname="HomePage" time="0.005">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the LeftNavBars "TYRE BRANDS" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the LeftNavBars {string} is present")
+public void i_validate_the_left_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC-Validate Home Page Layout Left Navigation #3" classname="HomePage" time="0.004">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the LeftNavBars "TYRES CATALOGUE" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the LeftNavBars {string} is present")
+public void i_validate_the_left_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC-Validate Home Page Layout Left Navigation #4" classname="HomePage" time="0.004">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the LeftNavBars "TYRE CLINIC" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the LeftNavBars {string} is present")
+public void i_validate_the_left_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC-Validate Home Page Layout Left Navigation #5" classname="HomePage" time="0.004">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the LeftNavBars "MEDIA CENTRE" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the LeftNavBars {string} is present")
+public void i_validate_the_left_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC-Validate Home Page Layout Left Navigation #6" classname="HomePage" time="0.004">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the LeftNavBars "SUPPORT" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the LeftNavBars {string} is present")
+public void i_validate_the_left_nav_bars_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

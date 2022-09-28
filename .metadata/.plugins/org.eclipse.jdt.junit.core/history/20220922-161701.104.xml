@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="7" started="7" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="68.636">
+    <testsuite name="HomePage" time="68.636">
+      <testcase name="TC3-Validate Home Page Footer Navigation #1" classname="HomePage" time="16.735"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #2" classname="HomePage" time="10.898"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #3" classname="HomePage" time="10.042"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #4" classname="HomePage" time="8.938"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #5" classname="HomePage" time="8.192"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #6" classname="HomePage" time="7.331"/>
+      <testcase name="TC3-Validate Home Page Footer Navigation #7" classname="HomePage" time="6.497">
+        <error>java.lang.NullPointerException: Cannot invoke "String.trim()" because "this.actualText" is null&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bars_is_present(stepDefs.java:75)&#13;
+	at ✽.I validate the FooterBars "Motorcycle Tyres" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:9)&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

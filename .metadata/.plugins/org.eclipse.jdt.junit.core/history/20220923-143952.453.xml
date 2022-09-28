@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="2" started="2" failures="0" errors="2" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="0.104">
+    <testsuite name="HomePage" time="0.104">
+      <testcase name="TC5-Validate Home Page Footer ICON and Copyright Text #1" classname="HomePage" time="0.094">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the Page Footer ICON and Copyright Text "BRIDGESTONE" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the Page Footer ICON and Copyright Text {string} is present")
+public void i_validate_the_page_footer_icon_and_copyright_text_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+      <testcase name="TC5-Validate Home Page Footer ICON and Copyright Text #2" classname="HomePage" time="0.009">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the Page Footer ICON and Copyright Text "� 2022 Bridgestone Tyre Sales Singapore Pte Ltd" is present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the Page Footer ICON and Copyright Text {string} is present")
+public void i_validate_the_page_footer_icon_and_copyright_text_is_present(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>

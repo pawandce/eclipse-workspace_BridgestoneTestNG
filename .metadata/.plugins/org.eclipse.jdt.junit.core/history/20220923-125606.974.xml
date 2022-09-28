@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="2" started="2" failures="1" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunner" incomplete="true">
+    <testsuite name="HomePage" incomplete="true">
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #1" classname="HomePage" time="176.969">
+        <failure>java.lang.AssertionError&#13;
+	at org.junit.Assert.fail(Assert.java:87)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:42)&#13;
+	at org.junit.Assert.assertTrue(Assert.java:53)&#13;
+	at stepDefinitions.stepDefs.i_validate_the_footer_bar_is_present(stepDefs.java:92)&#13;
+	at ✽.I validate the FooterBar Social Media "https://www.facebook.com/bridgestonesg/" is present(file:///C:/eclipse-workspace_BridgestoneTestNG/eclipse-workspace_BridgestoneTestNG/./Features/HomePage.feature:7)&#13;
+&#13;
+</failure>
+      </testcase>
+      <testcase name="TC4-Validate Home Page Footer Social Media Navigation #2" classname="HomePage" incomplete="true"/>
+    </testsuite>
+  </testsuite>
+</testrun>

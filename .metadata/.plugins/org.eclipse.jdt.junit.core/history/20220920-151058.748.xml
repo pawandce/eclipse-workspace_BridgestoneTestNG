@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="0.062">
+    <testsuite name="HomePage" time="0.062">
+      <testcase name="Validate Home Page Layout #1" classname="HomePage" time="0.055"/>
+      <testcase name="Validate Home Page Layout #2" classname="HomePage" time="0.007"/>
+    </testsuite>
+  </testsuite>
+</testrun>

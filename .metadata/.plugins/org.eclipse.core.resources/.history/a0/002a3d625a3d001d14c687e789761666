@@ -1,0 +1,123 @@
+package stepDefinitions;
+
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import java.nio.file.Files;
+import java.util.List;
+import java.util.concurrent.TimeUnit;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.By.ByXPath;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.remote.Browser;
+
+import io.cucumber.datatable.DataTable;
+import io.cucumber.java.After;
+import io.cucumber.java.Before;
+import io.cucumber.java.Scenario;
+import io.cucumber.java.en.*;
+import objectRepository.HomePageLocators;
+import pageObjects.HomePage;
+
+public class stepDefs {
+	String actualText;
+	String expectedText;
+	public WebDriver driver;
+	public HomePage homepage;
+	HomePageLocators hpl = new HomePageLocators(); 
+	
+	@Given("User Launches Browser")
+	public void user_launches_browser() {
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/Drivers/chromedriver.exe");
+		driver = new ChromeDriver();		
+		homepage= new HomePage(driver);
+	
+	}
+
+	@SuppressWarnings("deprecation")
+	@When("User launches website {string}")
+	public void user_launches_website(String url) {
+		
+		driver.get(url);
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+			   
+	}
+	
+	@Then("I validate the TopNavBars {string} is present")
+	public void i_validate_the_top_nav_bars_is_present(String string) {
+		actualText = null;
+		actualText = homepage.verifyElements(string);
+		// assertEquals("Result", string.trim(), actualText.trim());
+		assertTrue(actualText.trim().contains(string.trim()));
+	}
+		
+	@Then("I validate the BridgeStone Logo\"")
+	public void i_validate_the_bridge_stone_logo() {
+	   expectedText = "Go to Home";
+	   actualText =homepage.verifyElementLogo();
+	   assertEquals("Result", expectedText, actualText.trim());
+	}
+	
+	@Then("Close the Browser")
+	public void close_the_browser() {
+		driver.close();
+		driver.quit();
+	    
+	}
+	
+	@Then("I validate the LeftNavBars {string} is present")
+	public void i_validate_the_left_nav_bars_is_present(String string) {
+		actualText = null;
+		actualText = homepage.verifyElementsLeftNavigation(string);
+		// assertEquals("Result", string.trim(), actualText.trim());
+		assertTrue(actualText.trim().contains(string.trim()));
+	    
+	}
+
+	@Then("I validate the FooterBars {string} is present")
+	public void i_validate_the_footer_bars_is_present(String string) {
+		actualText = null;
+		actualText = homepage.verifyElementsFooterNavigation(string);
+		// assertEquals("Result", string.trim(), actualText.trim());
+		assertTrue(actualText.trim().contains(string.trim()));
+		System.out.println(string.trim());
+	}
+
+	
+	@Then("I validate the FooterBar Social Media {string} is present")
+	public void i_validate_the_footer_bar_is_present(String string) {
+		actualText = null;
+		actualText = homepage.verifyElementsFooterNavigationSocialMedia(string);
+		// assertEquals("Result", string.trim(), actualText.trim());
+		assertTrue(actualText.trim().contains(string.trim()));
+		System.out.println(string.trim());
+	}
+	
+	
+	@Then("I validate the Page Footer ICON and Copyright Text {string} is present")
+	public void i_validate_the_page_footer_icon_and_copyright_text_is_present(String string) {
+	    actualText = null;
+	    boolean actualText = homepage.verifyElementsFooterLogoAndCopyright(string);
+	    assertTrue(actualText);
+		System.out.println(string.trim());
+	}
+	
+	@After
+	public void tearDown(Scenario scenario) {
+		    if (scenario.isFailed()) {
+		      // Take a screenshot...
+		      final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+		   // embed it in the report.
+		      scenario.attach(screenshot, "image/png", "Screenshot for failed Scenario: "+scenario); 
+		      driver.quit();
+		    }
+		}
+	
+
+}
+	
+	

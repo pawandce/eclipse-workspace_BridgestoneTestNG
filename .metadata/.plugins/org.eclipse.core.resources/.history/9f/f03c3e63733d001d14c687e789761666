@@ -1,0 +1,21 @@
+package commonMethods;
+
+import org.openqa.selenium.remote.DesiredCapabilities;
+
+public class CommonMethods {
+	
+	public void setUp() throws Throwable {
+
+	String browser = System.getProperty("browser");
+
+	DesiredCapabilities caps = new DesiredCapabilities();
+
+	caps.setCapability("name", "selenium cucumber");
+	caps.setCapability("browserName", "Chrome");
+	caps.setCapability("platform", "Windows 10");
+	caps.setCapability("screenResolution", "1366x768");
+	caps.setCapability("record_video", "false");
+
+	driver = new RemoteWebDriver(new URL("http://" + username + ":" + authkey +"@hub.crossbrowsertesting.com:80/wd/hub"), caps);
+	}
+}

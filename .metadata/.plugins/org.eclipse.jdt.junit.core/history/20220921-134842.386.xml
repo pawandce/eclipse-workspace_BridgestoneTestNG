@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestRunner" project="eclipse-workspace_BridgestoneTestNG" tests="1" started="1" failures="0" errors="1" ignored="0">
+  <testsuite name="testRunner.TestRunner" time="0.11">
+    <testsuite name="HomePage" time="0.11">
+      <testcase name="Validate Home Page Layout" classname="HomePage" time="0.11">
+        <error>io.cucumber.junit.UndefinedStepException: The step 'I validate the "&lt;TopNavBars&gt;" are present' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I validate the {string} are present")
+public void i_validate_the_are_present(String string, io.cucumber.datatable.DataTable dataTable) {
+    // Write code here that turns the phrase above into concrete actions
+    // For automatic transformation, change DataTable to one of
+    // E, List&lt;E&gt;, List&lt;List&lt;E&gt;&gt;, List&lt;Map&lt;K,V&gt;&gt;, Map&lt;K,V&gt; or
+    // Map&lt;K, List&lt;V&gt;&gt;. E,K,V must be a String, Integer, Float,
+    // Double, Byte, Short, Long, BigInteger or BigDecimal.
+    //
+    // For other transformations you can register a DataTableType.
+    throw new io.cucumber.java.PendingException();
+}
+&#13;
+&#13;
+</error>
+      </testcase>
+    </testsuite>
+  </testsuite>
+</testrun>
